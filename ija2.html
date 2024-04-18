@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Computer selling shop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="ija2.css">
+	<script src="ija2.js"></script>
+</head>
+<body>
+
+	<header>
+		<h1>My Computer Store</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#products">Products</a></li>
+				<li><a href="ija2.3.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="login">
+			<h2>Log In</h2>
+			<input type="text" id="username" placeholder="Username">
+			<input type="password" id="password" placeholder="Password">
+			<button onclick="validateLogin()">Log In</button>
+			<p id="error-message" class="error-message"></p>
+		</div>
+	</header>
+
+	<main>
+		<section id="about">
+			<h2>Welcome to My Computer Store</h2>
+			<p>Here you will find the latest and greatest in computer technology.</p>
+		</section>
+
+		<section id="products">
+			<h2>Our Products</h2>
+			<div class="comp">
+			<img src="dell.jpg">
+			<h3>Dell</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+			<button>See product</button>
+		</div>
+			<div class="comp">
+			<img src="HP.png">
+			<h3>HP</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+			<button>See product</button>
+		</div>
+		<div class="comp">
+			<img src="APPLE.jpg">
+			<h3>Apple</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+			<button>See product</button>
+		</div>
+
+		</section>
+
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name">
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email">
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea>
+
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+	</main>
+    <div id="add-button"><button>Computer</button></div>
+<div id="destination-list"></div>
+<div id="destination-input"></div>
+	<footer>
+		<p>&copy; My Computer Store 2021</p>
+	</footer>
+
+</body>
+</html>
+
+
